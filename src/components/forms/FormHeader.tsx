@@ -114,7 +114,7 @@ export function FormHeader({
             value={inspectorName}
             onChange={(e) => onInspectorNameChange(e.target.value)}
             placeholder="[Inspector's Name]"
-            className="text-[10px] border-b border-neutral-400 outline-none w-32 bg-transparent"
+            className="text-[10px] border-b border-neutral-400 outline-none w-32 bg-white text-gray-900"
           />
         </div>
         <div className="border-b border-black p-1">
@@ -125,7 +125,7 @@ export function FormHeader({
               value={dateOfInspection}
               onChange={(e) => onDateChange(e.target.value)}
               placeholder="[Date]"
-              className="text-[10px] border-b border-neutral-400 outline-none w-20 bg-transparent"
+              className="text-[10px] border-b border-neutral-400 outline-none w-20 bg-white text-gray-900"
             />
             <button
               type="button"
@@ -174,7 +174,7 @@ export function FormHeader({
             value={projectName}
             onChange={(e) => onProjectNameChange(e.target.value)}
             placeholder="[Project Name]"
-            className="text-[10px] border-b border-neutral-400 outline-none w-32 bg-transparent"
+            className="text-[10px] border-b border-neutral-400 outline-none w-32 bg-white text-gray-900"
           />
         </div>
         <div className="p-1">
@@ -184,7 +184,7 @@ export function FormHeader({
             value={location}
             onChange={(e) => onLocationChange(e.target.value)}
             placeholder="[Specific location or area of inspection]"
-            className="text-[10px] border-b border-neutral-400 outline-none w-44 bg-transparent"
+            className="text-[10px] border-b border-neutral-400 outline-none w-44 bg-white text-gray-900"
           />
         </div>
       </div>

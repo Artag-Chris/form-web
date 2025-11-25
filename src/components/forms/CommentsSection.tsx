@@ -16,7 +16,7 @@ export function CommentsSection({ additionalComments, onCommentsChange }: Commen
         value={additionalComments}
         onChange={(e) => onCommentsChange(e.target.value)}
         placeholder="[Inspector's additional comments or observations]"
-        className="text-[10px] w-full border-b border-neutral-400 outline-none bg-transparent"
+        className="text-[10px] w-full border-b border-neutral-400 outline-none bg-white text-gray-900"
       />
     </div>
   )

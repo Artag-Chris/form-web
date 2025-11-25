@@ -19,10 +19,10 @@ export function ChecklistSection({
 }: ChecklistSectionProps) {
   return (
     <div className="mb-1">
-      <div className="font-bold text-[10px] border-b border-black pb-0.5 mb-0.5">{section.title}</div>
+      <div className="font-bold text-[10px] border-b border-black pb-0.5 mb-0.5 text-gray-900">{section.title}</div>
       {section.items.map((item, itemIndex) => (
-        <div key={item.id} className="flex items-start text-[9px] py-0.5 border-b border-neutral-300">
-          <span className="flex-1 pr-1">{item.question}</span>
+        <div key={item.id} className="flex items-start text-[9px] py-0.5 border-b border-neutral-300 text-gray-900">
+          <span className="flex-1 pr-1 text-gray-900">{item.question}</span>
           <div className="flex gap-1 shrink-0">
             <label className="flex items-center gap-0.5 cursor-pointer">
               <input

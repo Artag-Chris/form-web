@@ -23,7 +23,7 @@ export function SignatureSection({
           type="text"
           value={inspectorSignature}
           onChange={(e) => onSignatureChange(e.target.value)}
-          className="text-[10px] border-b border-black outline-none w-40 bg-transparent"
+          className="text-[10px] border-b border-black outline-none w-40 bg-white text-gray-900"
         />
       </div>
       <div>
@@ -32,7 +32,7 @@ export function SignatureSection({
           type="text"
           value={signatureDate}
           onChange={(e) => onSignatureDateChange(e.target.value)}
-          className="text-[10px] border-b border-black outline-none w-24 bg-transparent"
+          className="text-[10px] border-b border-black outline-none w-24 bg-white text-gray-900"
         />
       </div>
     </div>
