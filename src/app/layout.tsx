@@ -3,8 +3,8 @@ import { ThemeProvider } from "@/components/theme-provider";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "My V0 Project",
-  description: "Generated with Next.js 16 and TypeScript",
+  title: "Interactive Forms Page",
+  description: "Designed by ArtagDev",
 };
 
 export default function RootLayout({
