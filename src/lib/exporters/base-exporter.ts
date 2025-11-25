@@ -3,7 +3,9 @@
  * Proporciona funcionalidad común para exportar a diferentes formatos
  */
 
-import type { FormState, ExportFormat } from "@/types"
+import type { FormState, 
+//  ExportFormat
+ } from "@/types"
 
 export abstract class BaseExporter {
   protected formState: FormState

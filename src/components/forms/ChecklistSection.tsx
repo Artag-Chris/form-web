@@ -14,7 +14,7 @@ interface ChecklistSectionProps {
 export function ChecklistSection({
   section,
   sectionIndex,
-  side,
+  //side,
   onCheckboxChange,
 }: ChecklistSectionProps) {
   return (

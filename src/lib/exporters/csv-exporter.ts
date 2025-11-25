@@ -2,7 +2,7 @@
  * Exportador a formato CSV (Excel)
  */
 
-import type { FormState } from "@/types"
+//import type { FormState } from "@/types"
 import { BaseExporter } from "./base-exporter"
 
 export class CSVExporter extends BaseExporter {

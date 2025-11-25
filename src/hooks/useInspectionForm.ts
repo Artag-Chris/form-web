@@ -3,7 +3,10 @@
  */
 
 import { useState, useCallback, useEffect } from "react"
-import type { FormState, Section, ChecklistItem } from "@/types"
+import type { FormState,
+  //Section,
+  //ChecklistItem
+ } from "@/types"
 import { saveFormState, loadFormState, clearFormState } from "@/lib/storage"
 
 interface UseInspectionFormProps {

@@ -2,7 +2,7 @@
  * Exportador a formato Word (.doc)
  */
 
-import type { FormState } from "@/types"
+//import type { FormState } from "@/types"
 import { BaseExporter } from "./base-exporter"
 
 export class WordExporter extends BaseExporter {
